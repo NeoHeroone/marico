@@ -1,0 +1,157 @@
+@media (max-width: 425px) {
+
+  /* --MAIN STYLES-- */
+  .step1 {
+    font-size: 12px !important;
+  }
+
+  .stepTitle {
+    margin-left: -5px;
+  }
+
+  .stepDesc {
+    font-size: 12px !important;
+    max-width: 300px;
+  }
+
+  button {
+    padding: 7px 14px !important;
+    font-size: 13px !important;
+  }
+
+  .container {
+    padding: 0 40px !important;
+  }
+
+
+  /* NAVBAR */
+  .navbar {
+    display: none;
+  }
+
+  .sidebar-nav {
+    display: block !important;
+  }
+
+
+  /* --HEADER-- */
+  .header-title {
+    font-size: 25px !important;
+    line-height: 30px !important;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+
+  .header-desc {
+    font-size: 15px !important;
+    margin-left: 40px !important;
+    line-height: 20px !important;
+    margin-top: -100px !important;
+    max-width: 300px;
+  }
+
+  .header-btn_content {
+    margin-left: 30px;
+  }
+
+  .header-desc_content {
+    margin-bottom: 88px !important;
+  }
+
+  .header-desc_content p {
+    font-size: 15px !important;
+  }
+
+  .header-desc_content span {
+    font-size: 15px !important;
+  }
+
+  .header-desc_content img {
+    width: 25px;
+    height: 24px;
+  }
+
+
+  /* --WHY MARICO-- */
+  .mr-title {
+    font-size: 25px !important;
+    line-height: 30px !important;
+    margin-left: 20px;
+  }
+
+  .whyMarico-box_title h3 {
+    font-size: 15px !important;
+  }
+
+  .whyMarico-desc {
+    font-size: 12px !important;
+  }
+
+  .whyMarico-boxes {
+    display: inline-block !important;
+    gap: 20px !important;
+    margin-left: -40px;
+  }
+
+
+  /* HOME PAGE SECTION */
+  .homePage .container {
+    margin-top: 100px;
+  }
+
+  .homePage-content{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .homePage-imgContent img{
+    width: 400px;
+    height: 290px;
+    margin-left: -40px;
+    margin-top: 30px;
+  }
+
+  .homePage-miniTitle {
+    font-size: 12px !important;
+  }
+
+  .homePage-title {
+    font-size: 35px !important;
+    max-width: 270px;
+    line-height: 40px !important;
+  }
+
+  .homePage-boxes{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+  }
+
+  .homePage-box p {
+    font-size: 10px !important;
+    line-height: 20px !important;
+    padding: 5px 7px 1px 10px !important;
+  }
+
+  .homePage-box span {
+    font-size: 13px !important;
+    line-height: 20px !important;
+  }
+
+  .homePage-btn_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .homePage-btn {
+    width: 137px !important;
+    height: 35px !important;
+    font-size: 10px !important;
+    line-height: 10px !important;
+  }
+
+  .homePage-btn2 {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+}

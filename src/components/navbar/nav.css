@@ -1,0 +1,115 @@
+nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 46px 140px 128px 140px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 398px;
+}
+
+ul li a {
+  color: #707070;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+ul li a:hover {
+  color: #3C82F4;
+}
+
+nav .container .btn-content .login {
+  color: #707070;
+  font-size: 20px;
+  font-weight: 500;
+  background: transparent;
+  line-height: 30px;
+  padding: 12px 21px;
+}
+
+nav .container .btn-content .sign {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  padding: 12px 21px;
+  margin-left: 8px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: fixed;
+  justify-content: start;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 48px;
+  padding: 0;
+  margin: 0;
+  background: #1d1d1d;
+  overflow: hidden;
+  transition: width 0.5s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.sidebar:hover {
+  width: 200px;
+}
+
+.menu-item:hover {
+  border: 1px solid white;
+}
+
+.sidebar:hover .label {
+  opacity: 1;
+}
+
+.menu-item {
+  padding: 12px;
+  text-decoration: none;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu-item .icon {
+  text-align: center;
+  padding: 4px;
+}
+
+.menu-item:hover {
+  background: white;
+  color: #1d1d1d;
+}
+
+.menu-item:hover .label, .menu-item:hover i{
+  color: #1d1d1d !important;
+}
+
+.menu-item .label {
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  color: white;
+}
+
+i{
+  margin-top: 20px;
+}
+
+
+
+[class*="fa-"]::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+
+.sidebar-nav{
+  display: none;
+}

@@ -1,0 +1,13 @@
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 139px 96px 140px;
+}
+
+.footer-email {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 40px;
+  color: #707070;
+}
